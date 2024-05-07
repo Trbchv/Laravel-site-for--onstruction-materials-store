@@ -1,0 +1,361 @@
+@media (max-width: 1500px) {
+    .request{
+        background-image: url("/images/form_background_mobile.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+@media (max-width: 1200px) {
+    .partners_text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        padding-bottom: 30px;
+    }
+    .home-demo .item {
+        height: 380px;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    .home-demo .item {
+        height: 330px;
+    }
+    .drop_list{
+        margin-bottom: 6px;
+    }
+    .search{
+        margin-top: 93px;
+        margin-bottom: 10px;
+    }
+    .phone{
+        display: unset;
+        z-index: 100;
+    }
+    .mini_phone {
+        right: 20px;
+        bottom: 15px;
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        cursor: pointer;
+        text-decoration: none;
+        display: block;
+    }
+    .desktop{
+        display: none !important;
+    }
+    .mobile{
+        display: flex !important;
+    }
+    .logo img {
+        height: 50px;
+        width: 50px;
+    }
+    .footer_logo img {
+        height: 50px;
+        width: 50px;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+    .nav_number{
+        display: flex;
+        justify-content: center;
+    }
+    .nav_adress{
+        display: flex;
+        justify-content: center;
+    }
+    .vk_logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .search_button {
+        background-color: white;
+        border: 1px solid darkgray;
+        outline: none;
+        width: 10%;
+    }
+    header a{
+        padding: 5px 0px 5px 0px;
+    }
+    header{
+        padding: 10px 0px 10px 0px;
+    }
+    .brands {
+        padding: 40px 0px 40px 0px;
+    }
+    .title{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 48px;
+    }
+    .tecno{
+        height: 71px;
+    }
+    .gerkules{
+        height: 90px;
+    }
+    .paints{
+        height: 52px;
+    }
+    .form_request {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        margin-top: 40px;
+        width: auto;
+    }
+    .ya_map {
+        height: 331px;
+    }
+    .master_econom {
+        height: 230px;
+        width: 361px;
+    }
+    .partners_text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        padding-bottom: 0px;
+    }
+}
+@media (max-width: 767px) {
+    .more_btn {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+        background-color: #ffffff;
+        border: 1px solid black;
+        padding: 10px 15px 10px 15px;
+        margin-top: 50px;
+        height: 38px;
+        width: 160px;
+    }
+    .form_button {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+        background-color: #ffffff;
+        border: 1px solid black;
+        padding: 10px 15px 10px 15px;
+        height: 38px;
+        width: 160px;
+    }
+    .home-demo .item {
+        height: 250px;
+    }
+    .product_title {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 39px;
+    }
+    .footer_logo {
+        display: flex;
+        justify-content: center;
+    }
+    .search_button {
+        background-color: white;
+        border: 1px solid darkgray;
+        outline: none;
+        width: 10%;
+    }
+    .category-list {
+        margin-top: 0!important;
+        list-style: none;
+        column-count: 2;
+        height: auto !important;
+    }
+    .product_name{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 19px;
+        height: 100px;
+    }
+    .product_price{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .brands {
+        padding: 20px 0px 20px 0px;
+    }
+    .brands img{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .advantage {
+        padding-top: 10px;
+    }
+    .ya_map {
+        height: 260px;
+    }
+    .title{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 48px;
+    }
+    .master_box {
+        display: flex;
+        justify-content: center;
+    }
+    .master_econom {
+        height: 200px;
+        width: 367px;
+    }
+    .where {
+        padding: 25px 0 25px 0;
+    }
+    .partners_text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        padding-top: 15px;
+    }
+    .footer_text {
+        margin-top: 10px !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width: 576px) {
+    .one_sale {
+        position: absolute;
+        margin-left: -47px;
+        margin-top: 10px;
+        height: 65px;
+    }
+    .sale {
+        height: 65px;
+    }
+    .product_card {
+        background-color: #DAD1C4;
+        padding: 25px 30px 0 40px;
+        border: 1px rgba(0, 0, 0, 0.22) solid;
+        height: auto;
+    }
+    .product_image img{
+        height:200px;
+        width: 100%;
+    }
+    .product_name{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 19px;
+
+    }
+    .advantages {
+        padding: 50px 0 50px 0;
+    }
+    .advantage{
+        width: 50% !important;
+    }
+    .advantage img {
+        height: 35px;
+        width: 35px;
+    }
+    .advatage_text{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .product_price{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 19px;
+    }
+    .brands {
+        padding: 10px 0px 10px 0px;
+    }
+    .brands img{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .tecno{
+        height: 51px;
+    }
+    .gerkules{
+        height: 70px;
+    }
+    .paints{
+        height: 32px;
+    }
+    .title{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 48px;
+    }
+    .ya_map {
+        height: 230px;
+    }
+    .master_econom {
+        height: 180px;
+        width: 300px;
+    }
+}
+@media (max-width: 450px) {
+    .home-demo .item {
+        height: 220px;
+    }
+    .category-list {
+        margin-top: 0!important;
+        list-style: none;
+        column-count: 1;
+        height: auto !important;
+    }
+    .product_image img {
+        height: 150px;
+        width: 100%;
+    }
+}
+@media (max-width: 400px) {
+    .home-demo .item {
+        height: 160px;
+    }
+    .product_name {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 19px;
+        height: 154px;
+    }
+    .form_input {
+        height: 46px;
+        width: 280px;
+        background-color: white;
+        border: 1px solid darkgray;
+        outline: none;
+        padding-left: 10px;
+    }
+    .adress {
+        font-size: 12px;
+    }
+    .product_image img {
+        height: 138px;
+        width: 100%;
+    }
+}
